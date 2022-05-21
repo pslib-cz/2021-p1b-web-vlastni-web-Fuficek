@@ -82,18 +82,3 @@ div.content-inner {
   }
 
 
-@media (max-width: 768px) {
-    h1 {
-        width: 88%;
-        font-size: 50pt;
-        padding: 10vh 20px;
-        float: none;
-    }
-
-    div.content-inner {
-        width: 80%;
-        text-align: justify;
-        padding: 20px 0px;
-    }
-}
-
