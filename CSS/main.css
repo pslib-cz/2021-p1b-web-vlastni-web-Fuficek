@@ -13,57 +13,20 @@
     --bluehighlight: #4CC9F0;
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
-    }
+}
 
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
 @font-face {
     font-family: FutureLight;
-    src: url(../FONTS/FutureLight.ttf);
-    }
-
-    @keyframes flicker {
-        0%, 18%, 22%, 25%, 53%, 57%, 100% {
-          text-shadow:
-            0 0 4px #fff,
-            0 0 11px #fff,
-            0 0 19px #fff,
-            0 0 40px #0fa,
-            0 0 80px #0fa,
-            0 0 90px #0fa,
-            0 0 100px #0fa,
-            0 0 150px #0fa;
-        }
-        20%, 24%, 55% {       
-          text-shadow: none;
-        }
-      }
-
-::-webkit-scrollbar{
-    width: 10px;
-    background-color: var(--backgroundcolor);
-} 
- 
-::-webkit-scrollbar-thumb{
-        width: 5px;
-        background-color: var(--bluehighlight);
-        box-shadow:
-        0 0 7px rgb(0, 102, 255),
-        0 0 10px rgb(0, 153, 255),
-        0 0 21px rgb(12, 161, 247),
-        0 0 42px rgb(116, 225, 252),
-        0 0 82px rgb(109, 226, 255),
-        0 0 92px rgb(145, 229, 255),
-        0 0 102px rgb(155, 223, 255),
-        0 0 151px rgb(149, 225, 255);
+    src: url(../FONTS/NEON\ ABSOLUTE\ SANS1.ttf);
 }
-.body{
-    background-color: var(--backgroundcolor);
-}
-.pagecontent{
+
+
+.pagecontent {
     content: "";
     position: absolute;
     bottom: -100px;
@@ -73,9 +36,24 @@ body{
     background: linear-gradient(to bottom, transparent, #121212 50%);
     margin-top: 100px;
 }
-.neontext {
-    color: var(--blueday);
-    text-shadow:
+
+.space {
+    height: 50em;
+    padding-left: 5em;
+    padding-right: 5em;
+    background-color: var(--backgroundcolor);
+}
+
+/* S C R O L L   B A R */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--backgroundcolor);
+}
+
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: var(--bluehighlight);
+    box-shadow:
         0 0 7px rgb(0, 102, 255),
         0 0 10px rgb(0, 153, 255),
         0 0 21px rgb(12, 161, 247),
@@ -84,36 +62,68 @@ body{
         0 0 92px rgb(145, 229, 255),
         0 0 102px rgb(155, 223, 255),
         0 0 151px rgb(149, 225, 255);
-  }
+}
+
+/* N E O N   L O G O*/
+
+
+.neontext {
+    color: var(--blueday);
+    animation: flicker 5s infinite alternate;
+}
+
+@keyframes flicker {
+
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow:
+            0 0 7px rgb(0, 102, 255),
+            0 0 10px rgb(0, 153, 255),
+            0 0 21px rgb(12, 161, 247),
+            0 0 42px rgb(116, 225, 252),
+            0 0 82px rgb(109, 226, 255),
+            0 0 92px rgb(145, 229, 255),
+            0 0 102px rgb(155, 223, 255),
+            0 0 151px rgb(149, 225, 255);
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+}
+
 .logo {
     font-family: FutureLight;
+    font-weight: 200;
     letter-spacing: 15px;
     font-size: 5rem;
     text-decoration: none;
     display: flex;
     justify-content: center;
+    margin-top: 3em;
 }
-.space{
-    height: 50em;
-    padding-left: 5em;
-    padding-right: 5em;
-    background-color: var(--backgroundcolor);
-}
-
 
 /* 𝗡 𝗔 𝗩 𝗕 𝗔 𝗥 */
 
-nav{
+nav {
     display: flex;
     justify-content: center;
 }
-.nav-links{
+
+.nav-links {
     align-items: center;
     display: inline;
     padding: 0px 20%;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     color: white;
 }
@@ -124,13 +134,13 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
-  
-  li {
+}
+
+li {
     float: left;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     padding: 8px;
-  }
+}
