@@ -1,0 +1,58 @@
+:root {
+    --textcolor: black;
+    --backgroundcolor: #252525;
+    --neonpink: #F72585;
+    --darkpink: #B5179E;
+    --teal: #7209B7;
+    --bluebasic: #560BAD;
+    --bluedarker: #480CA8;
+    --bluedark: #3A0CA3;
+    --blueocean: #3F37C9;
+    --blueday: #4361EE;
+    --bluelight: #4895EF;
+    --bluehighlight: #4CC9F0;
+    }
+
+@font-face {
+    font-family: FutureLight;
+    src: url(../FONTS/FutureLight.ttf);
+    }
+.body{
+    background-color: var(--backgroundcolor);
+}
+.pagecontent{
+    content: "";
+    position: absolute;
+    bottom: -100px;
+    height: 200px;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, transparent, #121212 50%);
+    margin-top: 100px;
+
+}
+.neontext {
+    color: var(--blueday);
+    text-shadow:
+        0 0 7px rgb(22, 115, 255),
+        0 0 10px rgb(21, 151, 238),
+        0 0 21px rgb(79, 191, 255),
+        0 0 42px rgb(116, 225, 252),
+        0 0 82px rgb(109, 226, 255),
+        0 0 92px rgb(145, 229, 255),
+        0 0 102px rgb(155, 223, 255),
+        0 0 151px rgb(149, 225, 255);
+  }
+.logo {
+    font-family: FutureLight;
+    letter-spacing: 15px;
+    font-size: 5rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+/* 𝗡 𝗔 𝗩 𝗕 𝗔 𝗥 */
+
+
+.navdiv{}

@@ -1,0 +1,99 @@
+:root{
+    --textcolor: black;
+    --backgroundcolor: #252525;
+    --neonpink: #F72585;
+    --darkpink: #B5179E;
+    --teal: #7209B7;
+    --bluebasic: #560BAD;
+    --bluedarker: #480CA8;
+    --bluedark: #3A0CA3;
+    --blueocean: #3F37C9;
+    --blueday: #4361EE;
+    --bluelight: #4895EF;
+    --bluehighlight: #4CC9F0;
+}
+
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 1px;
+    -webkit-perspective: 1px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+
+div.parallax {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+
+div.parallax:after {
+    background-image: url("../IMG/parallax_photo.png");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 120vh;
+    top: -250px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    content: "";
+    transform: translateZ(-1px) scale(2);
+}
+
+div.content-outer {
+    width: 100%;
+    background-color: var(--backgroundcolor);
+    perspective: 2px;
+    -webkit-perspective: 2px;
+        height: fit-content;
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-image: url("");
+}
+
+div.content-inner {
+    font-size: 13pt;
+    line-height: 1.40em;
+    padding: 50px 20px;
+    margin: 0px auto;
+    content: "";
+    position: absolute;
+    bottom: -100px;
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(to bottom, transparent, #121212 50%);
+  }
+
+
+@media (max-width: 768px) {
+    h1 {
+        width: 88%;
+        font-size: 50pt;
+        padding: 10vh 20px;
+        float: none;
+    }
+
+    div.content-inner {
+        width: 80%;
+        text-align: justify;
+        padding: 20px 0px;
+    }
+}
+
