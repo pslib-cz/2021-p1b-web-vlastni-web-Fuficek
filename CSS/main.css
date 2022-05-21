@@ -1,5 +1,5 @@
 :root {
-    --textcolor: black;
+    --textcolor: #ffffff;
     --backgroundcolor: #121212;
     --neonpink: #F72585;
     --darkpink: #B5179E;
@@ -68,7 +68,7 @@ body {
 
 
 .neontext {
-    color: var(--blueday);
+    color: rgb(193, 246, 255);
     animation: flicker 5s infinite alternate;
 }
 
@@ -82,11 +82,11 @@ body {
     57%,
     100% {
         text-shadow:
-            0 0 7px rgb(0, 102, 255),
-            0 0 10px rgb(0, 153, 255),
-            0 0 21px rgb(12, 161, 247),
-            0 0 42px rgb(116, 225, 252),
-            0 0 82px rgb(109, 226, 255),
+            0 0 7px rgb(0, 4, 255),
+            0 0 10px rgb(30, 52, 248),
+            0 0 21px rgb(45, 76, 252),
+            0 0 42px rgb(116, 129, 252),
+            0 0 82px rgb(131, 118, 250),
             0 0 92px rgb(145, 229, 255),
             0 0 102px rgb(155, 223, 255),
             0 0 151px rgb(149, 225, 255);
@@ -98,6 +98,19 @@ body {
         text-shadow: none;
     }
 }
+.neon-wrapper {
+    box-shadow:
+    0 0 0.1vw  0.4vw #f8f7ff,   
+    0 0 0.4vw  0.6vw #8c72e9, 
+    0 0   4vw  0.4vw #330be5,
+  
+    inset 0 0 1.5vw  0.4vw #0b1ae5,
+    inset 0 0 0.4vw  0.2vw #9272e9,
+    inset 0 0 0.5vw  0.2vw #f9f7ff;
+    border-radius: 1.5rem;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 
 .logo {
     font-family: FutureLight;
