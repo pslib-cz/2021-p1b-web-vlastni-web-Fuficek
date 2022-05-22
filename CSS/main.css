@@ -103,14 +103,15 @@ body {
     0 0 0.1vw  0.4vw #f8f7ff,   
     0 0 0.4vw  0.6vw #8c72e9, 
     0 0   4vw  0.4vw #330be5,
-  
     inset 0 0 1.5vw  0.4vw #0b1ae5,
     inset 0 0 0.4vw  0.2vw #9272e9,
     inset 0 0 0.5vw  0.2vw #f9f7ff;
     border-radius: 1.5rem;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 20em;
+    margin-right: 20em;
   }
+
+
 
 .logo {
     font-family: FutureLight;
@@ -122,7 +123,96 @@ body {
     justify-content: center;
     margin-top: 3em;
 }
+@media (max-width: 1900px) {
+    .logo{
+        font-size: 4em;
+    }
+}
 
+@media (max-width: 1700px) {
+    .logo{
+        font-size: 3em;
+    }
+    .neon-wrapper{
+        margin-top: 20%;
+    }
+}
+@media (max-width: 1400px) {
+    .neon-wrapper{
+        margin-top: 20%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+@media (max-width: 1200px) {
+    .neon-wrapper{
+        margin-top: 28%;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+}
+@media (max-width: 1000px) {
+    .neon-wrapper{
+        margin-top: 32%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media (max-width: 900px) {
+    .neon-wrapper{
+        margin-top: 35%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .logo{
+        font-size: 2.5em;
+        text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    .neon-wrapper{
+        margin-top: 40%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .logo{
+        font-size: 2.5em;
+        text-align: center;
+    }
+}
+@media (max-width: 420px) {
+    .neon-wrapper{
+        margin-top: 40%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .logo{
+        font-size: 2em;
+        text-align: center;
+    }
+}
+@media (max-width: 350px) {
+    .neon-wrapper{
+        margin-top: 40%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .logo{
+        font-size: 1.8em;
+        text-align: center;
+    }
+}
+@media (max-width: 300px) {
+    .neon-wrapper{
+        margin-top: 40%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .logo{
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
 /* 𝗡 𝗔 𝗩 𝗕 𝗔 𝗥 */
 
 nav {
