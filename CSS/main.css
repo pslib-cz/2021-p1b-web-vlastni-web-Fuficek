@@ -39,11 +39,22 @@ body {
 
 .space {
     height: 50em;
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 15%;
+    padding-right: 15%;
     background-color: var(--backgroundcolor);
 }
-
+@media (max-width: 595px) {
+    .space{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (max-width: 550px) {
+    .space{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
 /* S C R O L L   B A R */
 ::-webkit-scrollbar {
     width: 10px;
@@ -123,6 +134,10 @@ body {
     justify-content: center;
     margin-top: 3em;
 }
+/* P A R A L L A X    L O G O    S C A L I N G */ 
+
+/*vím že to je strašný dělat to pomocí @media ale funguje to a lepší způsob mě nenapadl*/
+
 @media (max-width: 1900px) {
     .logo{
         font-size: 4em;
@@ -213,7 +228,9 @@ body {
         text-align: center;
     }
 }
-/* 𝗡 𝗔 𝗩 𝗕 𝗔 𝗥 */
+
+
+/*                                 𝗡 𝗔 𝗩 𝗕 𝗔 𝗥                                   */
 
 nav {
     display: flex;
@@ -221,6 +238,7 @@ nav {
 }
 
 .nav-links {
+    font-size: 1.5em;
     align-items: center;
     display: inline;
     padding: 0px 20%;
@@ -231,6 +249,11 @@ nav {
     color: white;
 }
 
+.active {
+    text-shadow:
+    0 0 7px rgb(0, 4, 255),
+    0 0 10px rgb(30, 52, 248);
+}
 
 ul {
     list-style-type: none;
@@ -246,4 +269,33 @@ li {
 li a {
     display: block;
     padding: 8px;
+}
+@media (max-width: 1200px) {
+    .nav-links{
+        font-size: 1.5em;
+        padding: 0px 0%;
+    }
+}
+@media (max-width: 810px) {
+    .nav-links{
+        font-size: 1.3em;
+        padding: 0px 0%;
+    }
+}
+@media (max-width: 740px) {
+    .nav-links{
+        padding: 0px 0%;
+    }
+}
+@media (max-width: 350px) {
+    .nav-links{
+        padding: 0px 20%;
+    }
+}
+@media (max-width: 300px) {
+    .nav-links{
+        padding: 0px 15%;
+        justify-content: center;
+        text-align: end;
+    }
 }
