@@ -20,18 +20,18 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [X] Soubory webu jsou členěny do složek (např. ``/styles``, ``/images``, ``/fonts``)
 * [X] Soubory webu se nacházejí v GitHubovém repozitáři
 * [X] V repozitáři se soubory ocitly pomocí commitů a pushů a těch je více než 3, rozprostřených do celé doby vypracovávání zadání
-* [ ] Web je dostupný přes Github Pages (do README.md přidejte odkaz)
+* [X] Web je dostupný přes Github Pages (do README.md přidejte odkaz)
 * [ ] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB
 * [ ] Stránka obsahuje formátovaný seznam zdrojů textu a obrázků
 
 ### CSS, vzhled [ ]
 
 * [X] Stránky používají několik souborů stylů, jeden z nich je [normalize](https://necolas.github.io/normalize.css/)
-* [ ] Ke stránkám jsou připojeny externí fonty (např. přes [Google Fonts](https://fonts.google.com/))
-* [ ] Stránka obsahuje horizontální nebo vertikální menu s odkazy na celou plochu nabídky
-* [ ] Vzhled stránek je zamýšlen na mobilní telefon pro rozměr od cca 360px do 960px. Content-wrapper má omezení na ``max-width: 960px; margin: 0 auto;``
+* [X] Ke stránkám jsou připojeny externí fonty (např. přes [Google Fonts](https://fonts.google.com/))
+* [X] Stránka obsahuje horizontální nebo vertikální menu s odkazy na celou plochu nabídky
+* [X] Vzhled stránek je zamýšlen na mobilní telefon pro rozměr od cca 360px do 960px. Content-wrapper má omezení na ``max-width: 960px; margin: 0 auto;``
 * [ ] Obrázky mají rozumnou velikost pro mobilní telefon
-* [ ] Velikosti písem jsou odvozeny od kořenového elementu
+* [X] Velikosti písem jsou odvozeny od kořenového elementu
 * [X] Velikosti mezer kolem prvku jsou odvozeny od velikosti písma elementu
 * [X] Web používá omezenou paletu barev a mezer (lze zajistit přes [proměnné v CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties))
 * [X] Barevné schéma je vkusné a odpovídá tématu. Inspiraci můžete čerpat z [editoru palet](https://coolors.co/palettes/trending)
@@ -43,20 +43,20 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
     min-height: 100vh;
 }
 ````
-* [ ] Styly definují vzhled prvků podle typografických zvyklosti (velikosti nadpisů, formát odstavců)
+* [X] Styly definují vzhled prvků podle typografických zvyklosti (velikosti nadpisů, formát odstavců)
 * [ ] Odkazy (například menu) využívají efekt ``hover``
-* [ ] Za nebo před odkazy v textu je přidána ikonka (např. šipka) (využití ``::before`` nebo ``::after``)
+* [X] Za nebo před odkazy v textu je přidána ikonka (např. šipka) (využití ``::before`` nebo ``::after``)
 
 ### Vyzkoušejte nad rámec probrané látky [ ]
 
 Po splnění předchozích bodů
 
 * [X] Na webu je použitý jednoduchý efekt [paralaxního obrázku](https://www.w3schools.com/howto/howto_css_parallax.asp)
-* [ ] Pro layout stránky je použit [flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [X] Pro layout stránky je použit [flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [ ] Jsou použity ikonky přes Font Awesome nebo [IcoMoon](https://icomoon.io/)
 * [ ] vytvořte galerii obrázků tvořenou náhledy vedle sebe (``display: flex`` nebo ``inline-block``)
 * [ ] Použijte pozadí přes lineární nebo radiální gradient
-* [ ] + jakékoli další vylepšení, kterým chcete zanechat přetrvávající dojem
+* [X] + jakékoli další vylepšení, kterým chcete zanechat přetrvávající dojem
 
 ## Kde hledat řešení a inspiraci?
 
