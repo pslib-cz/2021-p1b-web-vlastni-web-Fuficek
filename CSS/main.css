@@ -22,7 +22,7 @@ body {
 
 @font-face {
     font-family: FutureLight;
-    src: url(../FONTS/screaming_neon.ttf);
+    src: url(../FONTS/NEON\ ABSOLUTE\ SANS1.ttf);
 }
 
 
@@ -81,7 +81,8 @@ body {
 .neontext {
     color: rgb(193, 246, 255);
     animation: flicker 5s infinite alternate;
-}
+    padding-top: 3%;
+    }
 
 @keyframes flicker {
 
@@ -133,6 +134,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 3em;
+    align-items: center;
 }
 /* P A R A L L A X    L O G O    S C A L I N G */ 
 
