@@ -307,13 +307,16 @@ li a {
 }
 
 
-
+%
 /*                        J U M B O T R O N S                                     */
 
 .jumbospace{
     padding: 3%;
-    align-items: center;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
 }
 
 
@@ -332,4 +335,15 @@ li a {
 }
 .regular-text{
     color: var(--textcolor) !important;
+}
+
+@media (max-width: 800px) {
+    .jumbospace{
+        padding: 5%;
+        flex-direction: column;
+    }
+    .jumbotron-m
+    {
+        width: 90%;
+    }
 }
