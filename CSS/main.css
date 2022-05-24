@@ -22,7 +22,7 @@ body {
 
 @font-face {
     font-family: FutureLight;
-    src: url(../FONTS/NEON\ ABSOLUTE\ SANS1.ttf);
+    src: url(../FONTS/screaming_neon.ttf);
 }
 
 
@@ -307,15 +307,14 @@ li a {
 }
 
 
-%
 /*                        J U M B O T R O N S                                     */
 
 .jumbospace{
     padding: 3%;
     margin: auto;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-evenly;
+    flex-direction: row;
     
 }
 
