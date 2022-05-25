@@ -38,7 +38,7 @@ body {
 }
 
 .space {
-    height: 50em;
+    height: 60em;
     padding-left: 15%;
     padding-right: 15%;
     background-color: var(--backgroundcolor);
@@ -362,11 +362,12 @@ li a {
     padding: 3%;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-direction: row;
     
 }
 
+/* Jumbotron flicker animation */
 @keyframes jumboflicker {
 
     0%,
@@ -391,9 +392,11 @@ li a {
         box-shadow: none
     }
 }
+
+/* MEDIUM JUMBOTRON */
 .jumbotron-m{
-    display: inline-block;
-    margin-top: 5%;
+    display: flex;
+    margin: 1%;
     padding: 5%;
     border-color: var(--bluehighlight);
     border-radius: 15px;
@@ -402,15 +405,33 @@ li a {
     background-color: var(--backgroundcolor);
     border-style: solid;
     text-align: justify;
-    width: 35%;
+    flex-basis: 35%;
     height: 15%;
     animation: jumboflicker 5s infinite alternate;
-    border-radius: 1.5rem;
 }
+/* LARGE JUMBOTRON */
+.jumbotron-l{
+    display: flex;
+    margin: 1%;
+    padding: 5%;
+    margin-top: 2%;
+    border-color: var(--bluehighlight);
+    border-radius: 15px;
+    border-width: 5px;
+    border: var(--blueday);
+    background-color: var(--backgroundcolor);
+    border-style: solid;
+    text-align: justify;
+    flex-basis: 85%;
+    height: 15%;
+    animation: jumboflicker 5s infinite alternate;
+}
+
 .regular-text{
     color: var(--textcolor) !important;
 }
 
+/* JUMBOTRON SIZING */
 @media (max-width: 800px) {
     .jumbospace{
         padding: 5%;
@@ -426,7 +447,7 @@ li a {
 
 
 
-/*           A R R O W S              */
+/*                                 A R R O W S                                  */
 .arrow{
       position: absolute;
       top: 60%;
@@ -441,7 +462,7 @@ li a {
       border-right: 5px solid var(--bluehighlight);
       transform: rotate(45deg);
       margin: -10px;
-      animation: animate 2s infinite;
+      animation: animate 3s infinite;
   }
   .arrow span:nth-child(2){
       animation-delay: -0.2s;
