@@ -21,7 +21,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [X] Soubory webu se nacházejí v GitHubovém repozitáři
 * [X] V repozitáři se soubory ocitly pomocí commitů a pushů a těch je více než 3, rozprostřených do celé doby vypracovávání zadání
 * [X] Web je dostupný přes Github Pages (do README.md přidejte odkaz) ## Odkaz: https://pslib-cz.github.io/2021-p1b-web-vlastni-web-Fuficek/
-* [ ] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB
+* [X] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB
 * [ ] Stránka obsahuje formátovaný seznam zdrojů textu a obrázků
 
 ### CSS, vzhled [ ]
