@@ -14,13 +14,13 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 ### HTML, struktura souborů [ ]
 
 * [ ] Web má alespoň dvě stránky provázané společnými styly
-* [ ] HTML kód je validní bez chyb ve [validátoru](https://validator.w3.org/)
+* [X] HTML kód je validní bez chyb ve [validátoru](https://validator.w3.org/)
 * [X] HTML značky dávají smysl, kód obsahuje ``<article>``, ``<section>``, ``<header>``, ``<nav>``.
 * [X] Navigace mezi stránkami je tvořená přes ``<nav><ul><li><a>`` a je funkční i po zkopírování na lokální disk
 * [X] Soubory webu jsou členěny do složek (např. ``/styles``, ``/images``, ``/fonts``)
 * [X] Soubory webu se nacházejí v GitHubovém repozitáři
 * [X] V repozitáři se soubory ocitly pomocí commitů a pushů a těch je více než 3, rozprostřených do celé doby vypracovávání zadání
-* [X] Web je dostupný přes Github Pages (do README.md přidejte odkaz)
+* [X] Web je dostupný přes Github Pages (do README.md přidejte odkaz) ## Odkaz: https://pslib-cz.github.io/2021-p1b-web-vlastni-web-Fuficek/
 * [ ] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB
 * [ ] Stránka obsahuje formátovaný seznam zdrojů textu a obrázků
 
@@ -55,7 +55,7 @@ Po splnění předchozích bodů
 * [X] Pro layout stránky je použit [flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [ ] Jsou použity ikonky přes Font Awesome nebo [IcoMoon](https://icomoon.io/)
 * [ ] vytvořte galerii obrázků tvořenou náhledy vedle sebe (``display: flex`` nebo ``inline-block``)
-* [ ] Použijte pozadí přes lineární nebo radiální gradient
+* [X] Použijte pozadí přes lineární nebo radiální gradient
 * [X] + jakékoli další vylepšení, kterým chcete zanechat přetrvávající dojem
 
 ## Kde hledat řešení a inspiraci?
