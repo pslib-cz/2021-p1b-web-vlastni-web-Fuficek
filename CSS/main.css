@@ -299,6 +299,12 @@ nav {
     0 0 10px rgb(30, 52, 248);
 }
 
+.nav-link:hover{
+    text-shadow:
+    0 0 7px rgb(0, 4, 255),
+    0 0 10px rgb(30, 52, 248);
+}
+
 ul {
     list-style-type: none;
     margin: 0;
