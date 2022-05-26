@@ -1,5 +1,6 @@
 :root {
     --textcolor: #ffffff;
+    --texthighlight: #a0a0a0;
     --backgroundcolor: #121212;
     --neonpink: #F72585;
     --darkpink: #B5179E;
@@ -76,13 +77,6 @@ div.content-inner {
 }
 
 @media (max-width: 768px) {
-    h1 {
-        width: 88%;
-        font-size: 50pt;
-        padding: 10vh 20px;
-        float: none;
-    }
-
     div.content-inner {
         width: 80%;
         text-align: justify;
@@ -102,6 +96,7 @@ div.content-inner {
         padding-right: 0;
     }
 }
+/*_____________________*/
 /* S C R O L L   B A R */
 ::-webkit-scrollbar {
     width: 10px;
@@ -121,8 +116,8 @@ div.content-inner {
         0 0 102px rgb(155, 223, 255),
         0 0 151px rgb(149, 225, 255);
 }
-
-/* N E O N   L O G O*/
+/*________________________________________________________________________________*/
+/*                              N E O N   L O G O                                 */
 
 
 .neontext {
@@ -278,7 +273,7 @@ div.content-inner {
     }
 }
 
-
+/*________________________________________________________________________________*/
 /*                                 𝗡 𝗔 𝗩 𝗕 𝗔 𝗥                                   */
 
 nav {
@@ -355,7 +350,7 @@ li a {
     }
 }
 
-
+/*________________________________________________________________________________*/
 /*                        J U M B O T R O N S                                     */
 
 .jumbospace{
@@ -411,7 +406,7 @@ li a {
 }
 /* LARGE JUMBOTRON */
 .jumbotron-l{
-    display: flex;
+    display: block;
     margin: 1%;
     padding: 5%;
     margin-top: 2%;
@@ -442,7 +437,29 @@ li a {
         width: 90%;
     }
 }
-
+/*       Nadpisy a text properties */
+h1{
+    color: var(--blueday);
+}
+h2{
+    color: var(--bluehighlight)
+}
+p{
+    color: var(--textcolor);
+}
+.source{
+    color: var(--textcolor);
+    text-decoration: none;
+    padding: 0;
+}
+.sources{
+    display: flex;
+    flex-direction: column;
+}
+.italics{
+    font-style:italic;
+    color: var(--texthighlight);
+}
 /*                                 A R R O W S                                  */
 .arrow{
       position: absolute;
