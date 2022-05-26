@@ -21,7 +21,8 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [X] V repozitáři se soubory ocitly pomocí commitů a pushů a těch je více než 3, rozprostřených do celé doby vypracovávání zadání
 * [X] Web je dostupný přes Github Pages (do README.md přidejte odkaz) 
 #### Odkaz: https://pslib-cz.github.io/2021-p1b-web-vlastni-web-Fuficek/
-* [X] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB ## index.html má stahovanou velikost 1.9 MB
+* [X] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB ## index.html má stahovanou velikost 1.9 MB *(po zablokování google analytics které se importuje s fonty je načítaná velikost 1.8 MB)* 
+#### Přikládám foto s testem načítané velikosti stránky *(S vypnutým Cashem)*
 #### ![image](https://user-images.githubusercontent.com/91286763/170575033-0327c3dd-c176-4cf5-be5b-ac38998d36b4.png)
 
 
