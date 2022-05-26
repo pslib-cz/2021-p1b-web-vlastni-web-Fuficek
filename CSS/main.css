@@ -458,6 +458,9 @@ p{
     text-decoration: none;
     padding: 0;
 }
+.source:before{
+    content: "• ";
+}
 .sources{
     display: flex;
     flex-direction: column;
