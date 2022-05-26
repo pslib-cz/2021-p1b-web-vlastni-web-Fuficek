@@ -13,7 +13,6 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 
 ### HTML, struktura souborů [ ]
 
-* [ ] Web má alespoň dvě stránky provázané společnými styly
 * [X] HTML kód je validní bez chyb ve [validátoru](https://validator.w3.org/)
 * [X] HTML značky dávají smysl, kód obsahuje ``<article>``, ``<section>``, ``<header>``, ``<nav>``.
 * [X] Navigace mezi stránkami je tvořená přes ``<nav><ul><li><a>`` a je funkční i po zkopírování na lokální disk
@@ -22,7 +21,6 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [X] V repozitáři se soubory ocitly pomocí commitů a pushů a těch je více než 3, rozprostřených do celé doby vypracovávání zadání
 * [X] Web je dostupný přes Github Pages (do README.md přidejte odkaz) ## Odkaz: https://pslib-cz.github.io/2021-p1b-web-vlastni-web-Fuficek/
 * [X] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB
-* [ ] Stránka obsahuje formátovaný seznam zdrojů textu a obrázků
 
 ### CSS, vzhled [ ]
 
@@ -44,7 +42,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 }
 ````
 * [X] Styly definují vzhled prvků podle typografických zvyklosti (velikosti nadpisů, formát odstavců)
-* [ ] Odkazy (například menu) využívají efekt ``hover``
+* [X] Odkazy (například menu) využívají efekt ``hover``
 * [X] Za nebo před odkazy v textu je přidána ikonka (např. šipka) (využití ``::before`` nebo ``::after``)
 
 ### Vyzkoušejte nad rámec probrané látky [ ]
