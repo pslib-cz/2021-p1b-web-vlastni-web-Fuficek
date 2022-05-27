@@ -68,6 +68,12 @@ Po splnění předchozích bodů
     * Přidal jsem i jednoduchý script na odesílání mailů ze stránky, bohužel github pages je jen pro hostování statických webů takže nefunguje. Po vyplnění všech polí v contact.html a zmáčknutí *SEND* se script spustí a odešle mail, poté zobrazí stránku "Váš email byl úspěšně odeslán". Stránku která se zobrazí po zmášknutí send jsem pojmenoval jako *"mail.html"*. Která jde pouze zobrazit po napsání absolutní cesty nebo otevření ze souboru. *Odkaz na stránku mail.html: https://pslib-cz.github.io/2021-p1b-web-vlastni-web-Fuficek/mail.html*
 
 
+## Odkaz na stránku hostovanou pomocí 000webhost.com
+* https://nitroneons.000webhostapp.com/index.html
+    * Stránka funguje bez problémů v Microsoft EDGE a v anonymním okně Google Chrome
+        Google chrome totiž v normálním režimu označuje php stránky bez https jako nebezpečné, to samé se dělo když jsem použil localhost server s php
+    * Na odkaz klikat nemusíte, není důležitý, popřípadě vám funkční php ukáži na svém zařízení
+
 ## Kde hledat řešení a inspiraci?
 
 * [CSS Tricks Guides](https://css-tricks.com/guides/)
