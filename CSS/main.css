@@ -538,6 +538,7 @@ footer{
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
+    color: var(--textcolor);
     background-color: var(--darkerbackgroundcolor);
     border-color: var(--backgroundcolor);
     border-radius: 4px; 
@@ -549,7 +550,7 @@ input[type=text], select, textarea {
   
   input[type=submit] {
     background-color: var(--darkerbackgroundcolor);
-    color: var(--darkerbackgroundcolor);
+    color: var(--bluehighlight);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
