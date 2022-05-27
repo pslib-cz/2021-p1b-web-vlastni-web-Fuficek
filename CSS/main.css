@@ -588,3 +588,33 @@ input[type=text], select, textarea {
     0 0 0.4vw  0.2vw #8c72e9, 
     0 0   0.5vw  0.2vw #330be5;
   }
+
+  /*-----------PHP----------------------*/
+  .mail{
+      justify-content: center;
+      text-align: center;
+      padding: 5em;
+  }
+  .back{
+    background-color: var(--darkerbackgroundcolor);
+    color: var(--bluehighlight);
+    font-size: 2em;
+    padding: 2em;
+    border-radius: 20px;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  .back-div{
+    margin: 6em;
+    margin-top: 9em;
+  }
+  .back:hover{
+    color: var(--textcolor);
+    text-shadow:
+    0 0 7px rgb(0, 4, 255),
+    0 0 10px rgb(30, 52, 248);
+    box-shadow:  
+    0 0 0.1vw  0.1vw #f8f7ff, 
+    0 0 0.4vw  0.2vw #8c72e9, 
+    0 0   0.5vw  0.2vw #330be5;
+  }
