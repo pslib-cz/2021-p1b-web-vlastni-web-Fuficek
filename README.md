@@ -64,6 +64,8 @@ Po splnění předchozích bodů
 * css animace pozadí a neon efekt blikání
 * speciální text na kartě stránky vytvořen pomocí Unicode znaků
 * šipky které ukazují že směr stránky je dolů a navádí ke scrollování, NEJSOU MOJE! -> https://codepen.io/raf187/pen/BvgGRQ  přišlo mi že se tam hodí, 
+* Formulář "kontaktujte nás" 
+    * Přidal jsem i jednoduchý script na odesílání mailů ze stránky, bohužel github pages je jen pro hostování statických webů takže nefunguje. Po vyplnění všech polí v contact.html a zmáčknutí *SEND* se script spustí a odešle mail, poté zobrazí stránku "Váš email byl úspěšně odeslán". Stránku která se zobrazí po zmášknutí send jsem pojmenoval jako *"mail.html"*. Která jde pouze zobrazit po napsání absolutní cesty nebo otevření ze souboru. *Odkaz na stránku mail.html: https://pslib-cz.github.io/2021-p1b-web-vlastni-web-Fuficek/mail.html*
 
 
 ## Kde hledat řešení a inspiraci?
