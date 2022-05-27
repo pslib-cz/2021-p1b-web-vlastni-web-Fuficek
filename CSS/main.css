@@ -2,6 +2,7 @@
     --textcolor: #ffffff;
     --texthighlight: #a0a0a0;
     --backgroundcolor: #121212;
+    --darkerbackgroundcolor: #080808;
     --neonpink: #F72585;
     --darkpink: #B5179E;
     --teal: #7209B7;
@@ -12,8 +13,13 @@
     --blueday: #4361EE;
     --bluelight: #4895EF;
     --bluehighlight: #4CC9F0;
+    --bluetransparent: rgba(106, 87, 161, 0.685);
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body {
@@ -39,7 +45,7 @@ body {
 }
 
 .space {
-    height: 60em;
+    height: fit-content;
     padding-left: 15%;
     padding-right: 15%;
     background-color: var(--backgroundcolor);
@@ -291,6 +297,7 @@ nav {
 .nav-link {
     text-decoration: none;
     color: white;
+    transition: 0.3s;
 }
 
 .active {
@@ -446,9 +453,15 @@ li a {
 /*       Nadpisy a text properties */
 h1{
     color: var(--blueday);
+    text-shadow: 
+    0 0 7px rgb(0, 2, 110),
+    0 0 10px rgb(30, 52, 248);
 }
 h2{
-    color: var(--bluehighlight)
+    color: var(--bluehighlight);
+    text-shadow: 
+    0 0 7px rgb(0, 4, 255),
+    0 0 10px rgb(30, 52, 248);
 }
 p{
     color: var(--textcolor);
@@ -504,4 +517,74 @@ p{
           opacity: 0;
           transform: rotate(45deg) translate(20px,20px);
       }
+  }
+
+  /*-----------------------------------------------------------------*/
+  /*                         F O O T E R                             */
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+  footer p{
+      color: var(--bluetransparent);
+      font-size: 0.8em;
+  }
+
+
+/*---------------------------------------------------*/
+/*                  CONTACT FORM                     */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--darkerbackgroundcolor);
+    border-color: var(--backgroundcolor);
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: var(--darkerbackgroundcolor);
+    color: var(--darkerbackgroundcolor);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: var(--darkerbackgroundcolor);
+  }
+
+  .container {
+    color: var(--textcolor);
+    text-shadow: 
+    0 0 7px rgb(0, 4, 255),
+    0 0 10px rgb(30, 52, 248);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: start;
+  }
+  button{
+      background-color: var(--darkerbackgroundcolor);
+      color: var(--bluehighlight);
+      padding: 12px;
+      padding-left: 22px;
+      padding-right: 22px;
+      border-radius: 20px;
+      transition: 0.3s;
+  }
+  button:hover{
+    color: var(--textcolor);
+    text-shadow:
+    0 0 7px rgb(0, 4, 255),
+    0 0 10px rgb(30, 52, 248);
+    box-shadow:  
+    0 0 0.1vw  0.1vw #f8f7ff, 
+    0 0 0.4vw  0.2vw #8c72e9, 
+    0 0   0.5vw  0.2vw #330be5;
   }
