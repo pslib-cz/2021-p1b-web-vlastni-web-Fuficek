@@ -73,6 +73,9 @@ Po splnění předchozích bodů
     * Stránka funguje bez problémů v Microsoft EDGE a v anonymním okně Google Chrome
         Google chrome totiž v normálním režimu označuje php stránky bez https jako nebezpečné, to samé se dělo když jsem použil localhost server s php
     * Na odkaz klikat nemusíte, není důležitý, popřípadě vám funkční php ukáži na svém zařízení
+        * *Ukázka jak vypadá formulář* 
+        * ![image](https://user-images.githubusercontent.com/91286763/170820669-35e9336e-0343-4d41-8e34-33d55d472ef3.png)
+        * ![image](https://user-images.githubusercontent.com/91286763/170820688-fe38f664-4382-435c-a278-5bd5ff186521.png)
 
 ## Kde hledat řešení a inspiraci?
 
