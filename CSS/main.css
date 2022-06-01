@@ -351,8 +351,16 @@ li a {
 }
 @media (max-width: 420px) {
     .nav-links{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
+}
+@media (max-width: 360px) {
+    .nav-links{
         padding-left: 15%;
         padding-right: 15%;
+        justify-content: space-between;
     }
 }
 @media (max-width: 300px) {
