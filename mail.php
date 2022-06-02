@@ -50,7 +50,7 @@ echo '
                     <nav>
                       <ul class="nav-links">
                         <li><a class="nav-link" href="index.html">Úvod</a></li>
-                        <li><a class="nav-link" href="#">Servis</a></li>
+                        <li><a class="nav-link" href="shop.html">Nabídka</a></li>
                         <li><a class="nav-link" href="contact.html">Kontakt</a></li>
                         <li><a class="nav-link" href="#">Zdroje</a></li>
                       </ul>

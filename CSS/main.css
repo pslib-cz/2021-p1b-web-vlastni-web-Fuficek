@@ -627,3 +627,30 @@ input[type=text], select, textarea {
     0 0 0.4vw  0.2vw #8c72e9, 
     0 0   0.5vw  0.2vw #330be5;
   }
+
+  /* ---------------- SHOP CARDS -----------------*/
+
+  .cardspace{
+    padding: 3%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+  .card-m{
+    display: flex;
+    margin: 1%;
+    padding: 5%;
+    border-color: var(--bluehighlight);
+    border-radius: 15px;
+    border-width: 5px;
+    border: var(--blueday);
+    background-color: var(--backgroundcolor);
+    border-style: solid;
+    text-align: justify;
+    flex-basis: 20%;
+    height: 15%;
+    animation: jumboflicker 5s infinite alternate;
+}
