@@ -1,3 +1,4 @@
+/* MAIN COLLOR VARIABLES */
 :root {
     --textcolor: #ffffff;
     --texthighlight: #a0a0a0;
@@ -26,7 +27,7 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/*font import from local files */
 @font-face {
     font-family: FutureLight;
     src: url(../FONTS/NEON\ ABSOLUTE\ SANS1.ttf);
@@ -53,6 +54,8 @@ body {
     background-repeat: no-repeat;
     background-image: linear-gradient();  
     background-size: stretch;
+    animation: AnimateBG 5s ease infinite;
+    transition: 0.2s;
       }
     /* animating the background */
       @keyframes AnimateBG { 
@@ -71,10 +74,7 @@ body {
         }
     }
 
-.animate{
-    animation: AnimateBG 5s ease infinite;
-}
-
+    /*part of parallax*/
 div.content-inner {
     font-size: 13pt;
     color: #333;
@@ -105,8 +105,8 @@ div.content-inner {
         padding-right: 0;
     }
 }
-/*_____________________*/
-/* S C R O L L   B A R */
+/*________________________________________________________________________________*/
+/*                              S C R O L L    B A R                              */
 ::-webkit-scrollbar {
     width: 10px;
     background-color: var(--backgroundcolor);
@@ -172,6 +172,7 @@ div.content-inner {
     border-radius: 1.5rem;
     margin-left: 20em;
     margin-right: 20em;
+    transition: 0.2s;
   }
 
 
@@ -186,6 +187,7 @@ div.content-inner {
     justify-content: center;
     margin-top: 3em;
     align-items: center;
+    transition: 0.2s;
 }
 /* P A R A L L A X    L O G O    S C A L I N G */ 
 
@@ -288,12 +290,14 @@ div.content-inner {
 nav {
     display: flex;
     justify-content: center;
+    transition: 0.2s;
 }
 
 .nav-links {
     font-size: 1.5em;
     align-items: center;
     display: inline;
+    transition: 1s;
 }
 
 .nav-link {
@@ -358,18 +362,23 @@ li a {
     }
     
 }
+@media (max-width: 380px) {
+    .nav-links{
+        text-align: center;
+        font-size: 1.2em;
+    }
+}
 @media (max-width: 360px) {
     .nav-links{
         padding-left: 15%;
         padding-right: 15%;
-        justify-content: space-between;
+        text-align: center;
     }
 }
 @media (max-width: 300px) {
     .nav-links{
         padding: 0px 15%;
-        justify-content: center;
-        text-align: end;
+        text-align: center;
     }
 }
 
@@ -382,6 +391,7 @@ li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    transition: 0.2s;
     
 }
 
@@ -411,7 +421,7 @@ li a {
     }
 }
 
-/* MEDIUM JUMBOTRON */
+/*----------------------MEDIUM JUMBOTRON--------------------------*/
 .jumbotron-m{
     display: flex;
     margin: 1%;
@@ -424,10 +434,11 @@ li a {
     border-style: solid;
     text-align: justify;
     flex-basis: 35%;
-    height: 15%;
+    min-height: 15em;
     animation: jumboflicker 5s infinite alternate;
+    transition: 1s;
 }
-/* LARGE JUMBOTRON */
+/*---------------------LARGE JUMBOTRON-------------------------------*/
 .jumbotron-l{
     display: block;
     margin: 1%;
@@ -443,13 +454,14 @@ li a {
     flex-basis: 85%;
     height: 15%;
     animation: jumboflicker 5s infinite alternate;
+    transition: 0.2s;
 }
 
 .regular-text{
     color: var(--textcolor) !important;
 }
 
-/* JUMBOTRON SIZING */
+/*---------------------------- JUMBOTRON SIZING ------------------------*/
 @media (max-width: 800px) {
     .jumbospace{
         padding: 5%;
@@ -460,7 +472,8 @@ li a {
         width: 90%;
     }
 }
-/*       Nadpisy a text properties */
+/*________________________________________________________________________________*/
+/*                        HEADER AND TEXT PROPERTIES                              */
 h1{
     color: var(--blueday);
     text-shadow: 
@@ -476,6 +489,15 @@ h2{
 p{
     color: var(--textcolor);
 }
+h4{
+    color: var(--textcolor);
+    text-shadow: 
+    0 0 7px rgb(0, 4, 255),
+    0 0 10px rgb(30, 52, 248);
+    font-size: 1.5em;
+}
+/*________________________________________________________________________________*/
+/*                            SOURCES DIV PROPERTIES                              */
 .source{
     color: var(--textcolor);
     text-decoration: none;
@@ -492,7 +514,8 @@ p{
     font-style:italic;
     color: var(--texthighlight);
 }
-/*                                 A R R O W S                                  */
+/*________________________________________________________________________________*/
+/*                                  A R R O W S                                   */
 .arrow{
       position: absolute;
       top: 60%;
@@ -529,11 +552,12 @@ p{
       }
   }
 
-  /*-----------------------------------------------------------------*/
-  /*                         F O O T E R                             */
+/*________________________________________________________________________________*/
+/*                                     FOOTER                                     */
 footer{
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-top: 5%;
 }
 
@@ -543,8 +567,8 @@ footer{
   }
 
 
-/*---------------------------------------------------*/
-/*                  CONTACT FORM                     */
+/*________________________________________________________________________________*/
+/*                          CONTACT FORM DIV PROPERTIES                           */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -600,7 +624,8 @@ input[type=text], select, textarea {
     0 0   0.5vw  0.2vw #330be5;
   }
 
-  /*-----------PHP----------------------*/
+ /*________________________________________________________________________________*/
+/*                              MAIL.PHP SITE PROPERTIES                           */
   .mail{
       justify-content: center;
       text-align: center;
@@ -630,14 +655,16 @@ input[type=text], select, textarea {
     0 0   0.5vw  0.2vw #330be5;
   }
 
-  /* ---------------- SHOP CARDS -----------------*/
+ /*________________________________________________________________________________*/
+/*                                SHOP SITE PROPERTIES                             */
 
   .cardspace{
     padding: 3%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content:flex-start
+    justify-content:center;
+    transition: 0.5s;
     
 }
 
@@ -652,27 +679,46 @@ input[type=text], select, textarea {
     background-color: var(--backgroundcolor);
     border-style: solid;
     text-align: center;
-    flex-basis: 20%;
+    flex-basis: 22%;
+    min-width: 20%;
     height: 15%;
     flex-direction: column;
+    transition: 0.5s;
+    min-height: 32em;
 }
+
+
 .flicker{
     animation: jumboflicker 5s infinite alternate;
 }
 
-.card-img-section{
-    padding: 0;
-    margin: 0;
-    height: 10vw;
-    width: 14vw;
-}
 .card-img{
     margin: 0;
     height: 10vw;
     width: 14vw;
+    transition: 0.5s;
+}
+
+@media (max-width: 1350px) {
+    .card-m{
+        min-width: 35%;
+    }
+    .card-img{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .card-m{
+        min-width: 90%;
+    }
 }
 
 /* -------------------SWITCH------------------ */
+/* Na finální stránce tento kód není použit,
+ měl sloužit jako styl pro tlačítko které vypínalo a zapínalo animace na stránce*/
+/*
+
 .anim_toggle{
     font-size: 0.5em;
     padding: 0.3em;
@@ -682,3 +728,5 @@ input[type=text], select, textarea {
     background-color: var(--backgroundcolor);
     border: none;
 }
+
+*/
