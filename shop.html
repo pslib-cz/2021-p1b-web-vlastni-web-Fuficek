@@ -30,7 +30,7 @@
         <div class="content-outer"> 
             <div class="content-inner">
               <div class="pagecontent"> 
-                <div class="space bag" id="site">
+                <div class="space animate bag" id="site">
                   <header>
                     <nav>
                       <ul class="nav-links">
@@ -38,36 +38,51 @@
                         <li><a class="nav-link active" href="#">Nabídka</a></li>
                         <li><a class="nav-link" href="contact.html">Kontakt</a></li>
                         <li><a class="nav-link" href="sources.html">Zdroje</a></li>
+                        <li>
+                          <button class="anim_toggle">Vypnutí animací</button>
+                      </li>
                       </ul>
                     </nav>
                   </header>
                   <div class="cardspace">
-                    <div class="card-m">
+
+                    <div class="card-m flicker">
+                      <div class="card-img-section">
+                      <img class="card-img" src="IMG/led_bowling.jpeg">
+                      </div>
+                      <h2>LED aplikace</h2>
                       <p class="regular-text">
-                      Nitro Neons patří dlouhá léta mezi špičku reklamní výrobní produkce v České republice a na Slovensku. 
-                      Zaměřuje se především na výrobu všech typů světelných reklam a domovního okrasného osvětlení.
-                      Prochází permanentním dynamickým rozvojem a stále investuje do nejmodernějších technologií a výrobního zázemí.
+                        LED je nejnovější moderní způsob prosvícení nebo podsvícení světelných písmen a reklam. Při výrobě využíváme nejnovější SMD pásky a LED moduly od značkových dodavatelů s garantovanou životností dle výběru v délce 2,3 a 5 let.
                       </p>
                     </div>
-                    <div class="card-m">
+                    
+                    <div class="card-m flicker">
+                      <div class="card-img-section">
+                      <img class="card-img" src="IMG/led_dům.jpg">
+                      </div>
+                      <h2>SVĚTELNÁ PÍSMENA</h2>
                       <p class="regular-text">
-                      Nitro Neons patří dlouhá léta mezi špičku reklamní výrobní produkce v České republice a na Slovensku. 
-                      Zaměřuje se především na výrobu všech typů světelných reklam a domovního okrasného osvětlení.
-                      Prochází permanentním dynamickým rozvojem a stále investuje do nejmodernějších technologií a výrobního zázemí.
+                        Světelná písmena vyrábíme ve všech modifikacích – řezech písma. Korpus písma je možné vyrobit z AL plechů, plexiskla, nerezi nebo mosazi. Prosvícení písma je realizováno pomocí neonu, LED ve vynímečných případech lze požít zářivkové trubice.
                       </p>
                     </div>
-                    <div class="card-m">
+
+                    <div class="card-m flicker">
+                      <div class="card-img-section">
+                      <img class="card-img" src="IMG/fotolab.jpg">
+                      </div>
+                      <h2>SVĚTELNÁ PÍSMENA</h2>
                       <p class="regular-text">
-                      Nitro Neons patří dlouhá léta mezi špičku reklamní výrobní produkce v České republice a na Slovensku. 
-                      Zaměřuje se především na výrobu všech typů světelných reklam a domovního okrasného osvětlení.
-                      Prochází permanentním dynamickým rozvojem a stále investuje do nejmodernějších technologií a výrobního zázemí.
+                        LED je nejnovější moderní způsob prosvícení nebo podsvícení světelných písmen a reklam. Při výrobě využíváme nejnovější SMD pásky a LED moduly od značkových dodavatelů s garantovanou životností dle výběru v délce 2,3 a 5 let.
                       </p>
                     </div>
-                    <div class="card-m">
+
+                    <div class="card-m flicker">
+                      <div class="card-img-section">
+                      <img class="card-img" src="IMG/sip.jfif">
+                      </div>
+                      <h2>SVĚTELNÁ PÍSMENA</h2>
                       <p class="regular-text">
-                      Nitro Neons patří dlouhá léta mezi špičku reklamní výrobní produkce v České republice a na Slovensku. 
-                      Zaměřuje se především na výrobu všech typů světelných reklam a domovního okrasného osvětlení.
-                      Prochází permanentním dynamickým rozvojem a stále investuje do nejmodernějších technologií a výrobního zázemí.
+                        LED je nejnovější moderní způsob prosvícení nebo podsvícení světelných písmen a reklam. Při výrobě využíváme nejnovější SMD pásky a LED moduly od značkových dodavatelů s garantovanou životností dle výběru v délce 2,3 a 5 let.
                       </p>
                     </div>
                 </div>
@@ -80,5 +95,17 @@
             </div>
         </div>
         </div>
+        <script>
+          const background = document.querySelector(".space");
+          const card = document.querySelector(".card-m")
+          const jumbo = document.querySelector(".jumbotron-m")
+          const jumbo_l = document.querySelector(".jumbotron-l")
+          const button = document.querySelector(".anim_toggle")
+          
+          button.addEventListener("click", () => {
+          background.classList.toggle("animate")
+          card.classList.toggle("flicker")
+          });
+          </script>
   </body>
 </html>

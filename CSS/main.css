@@ -53,7 +53,6 @@ body {
     background-repeat: no-repeat;
     background-image: linear-gradient();  
     background-size: stretch;
-    animation: AnimateBG 5s ease infinite;
       }
     /* animating the background */
       @keyframes AnimateBG { 
@@ -71,6 +70,10 @@ body {
             background-color: var(--backgroundcolor);
         }
     }
+
+.animate{
+    animation: AnimateBG 5s ease infinite;
+}
 
 div.content-inner {
     font-size: 13pt;
@@ -291,7 +294,6 @@ nav {
     font-size: 1.5em;
     align-items: center;
     display: inline;
-    padding: 0px 20%;
 }
 
 .nav-link {
@@ -635,22 +637,48 @@ input[type=text], select, textarea {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content:flex-start
     
 }
 
   .card-m{
     display: flex;
-    margin: 1%;
-    padding: 5%;
+    margin: 1.2%;
+    padding: 4%;
     border-color: var(--bluehighlight);
     border-radius: 15px;
     border-width: 5px;
     border: var(--blueday);
     background-color: var(--backgroundcolor);
     border-style: solid;
-    text-align: justify;
+    text-align: center;
     flex-basis: 20%;
     height: 15%;
+    flex-direction: column;
+}
+.flicker{
     animation: jumboflicker 5s infinite alternate;
+}
+
+.card-img-section{
+    padding: 0;
+    margin: 0;
+    height: 10vw;
+    width: 14vw;
+}
+.card-img{
+    margin: 0;
+    height: 10vw;
+    width: 14vw;
+}
+
+/* -------------------SWITCH------------------ */
+.anim_toggle{
+    font-size: 0.5em;
+    padding: 0.3em;
+    margin: 5px;
+    margin-top: 10px;
+    float:inline-start;
+    background-color: var(--backgroundcolor);
+    border: none;
 }
