@@ -83,13 +83,13 @@ Po splnění předchozích bodů
 * [Metodika BEM](http://getbem.com/introduction/)
 
 ## Můj názor na mou stránku
-- tento web byl jeden z méně náročných projektů co jsem dělal, byl ale zdlouhavý a časově náročnější. Tvořit stránku mě bavilo, a rád jsem na ni dělal od začátku. 
-- Začal jsem s orientací webu na desktopové rozhraní a poté jsem transformoval prvky pro mobilní zařízení. Byl to zdlouhavý proces ale šlo to. Na stránce jsem dělal průběžně.
-- Některé body v zadání jsem nepochopil ale doufám že jsem je implementoval správně, nejsem si jist tímto bodem: " [X] Velikosti písem jsou odvozeny od kořenového elementu ", vyložil jsem si to tak, že základní velikost písma je stanovena v :root a pak se mění v průběhu css souboru
-- Strukturu main.css jsem se snažil rozdělit do hlavních prvků, myslím si že je psán čitelně a smysluplně
-- Měl jsem problémy s normalize.css, protože mi měnil defaultní hodnoty v parallax.css, proto je tak komplikovaně psaný, ale líbí se mi a myslím si že doplňuje stránku lépe než ten obyčejný statický w3schools parallax co se rozhodla většina spolužáků použít.
-- v tomto úkolu jsem se naučil lépe pracovat s animacemi v css a využil jsem je na pozadí a animaci hlavních prvků,
-- Galerii jsem nedělal jelikož jsem na ni neměl čas, pokud bych měl, použil bych grid a javascript pro multifunkčnost
-- mým cílem bylo nepoužit ani kousek javascriptu na stránce
-- vím že v některých místech jsou animace moc rušivé, proto jsem chtěl přidal toglle button do navbaru aby si uživatel mohl popřípadě animace vypnout, to se mi bohužel bez JS nedařilo ani když jsem použil checkbox::checked se vypnula pouze jedna z více animací, a už se mi s tím nechtělo dělat tak jsem to hodil za hlavu.
-- projekt mě bavil, čistý aktivní strávený čas na tomto projektu ve Visual Studio Code je 62 hodin.
+   - tento web byl jeden z méně náročných projektů co jsem dělal, byl ale zdlouhavý a časově náročnější. Tvořit stránku mě bavilo, a rád jsem na ni dělal od začátku. 
+   - Začal jsem s orientací webu na desktopové rozhraní a poté jsem transformoval prvky pro mobilní zařízení. Byl to zdlouhavý proces ale šlo to. Na stránce jsem dělal průběžně.
+   - Některé body v zadání jsem nepochopil ale doufám že jsem je implementoval správně, nejsem si jist tímto bodem: " [X] Velikosti písem jsou odvozeny od kořenového elementu ", vyložil jsem si to tak, že základní velikost písma je stanovena v :root a pak se mění v průběhu css souboru
+   - Strukturu main.css jsem se snažil rozdělit do hlavních prvků, myslím si že je psán čitelně a smysluplně
+   - Měl jsem problémy s normalize.css, protože mi měnil defaultní hodnoty v parallax.css, proto je tak komplikovaně psaný, ale líbí se mi a myslím si že doplňuje stránku lépe než ten obyčejný statický w3schools parallax co se rozhodla většina spolužáků použít.
+   - v tomto úkolu jsem se naučil lépe pracovat s animacemi v css a využil jsem je na pozadí a animaci hlavních prvků,
+   - Galerii jsem nedělal jelikož jsem na ni neměl čas, pokud bych měl, použil bych grid a javascript pro multifunkčnost
+   - mým cílem bylo nepoužit ani kousek javascriptu na stránce
+   - vím že v některých místech jsou animace moc rušivé, proto jsem chtěl přidal toglle button do navbaru aby si uživatel mohl popřípadě animace vypnout, to se mi bohužel bez JS nedařilo ani když jsem použil checkbox::checked se vypnula pouze jedna z více animací, a už se mi s tím nechtělo dělat tak jsem to hodil za hlavu.
+   - projekt mě bavil, čistý aktivní strávený čas na tomto projektu ve Visual Studio Code je 62 hodin.
