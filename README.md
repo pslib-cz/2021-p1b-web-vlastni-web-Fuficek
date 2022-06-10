@@ -56,7 +56,7 @@ Po splnění předchozích bodů
 * [X] Na webu je použitý jednoduchý efekt [paralaxního obrázku](https://www.w3schools.com/howto/howto_css_parallax.asp) ## *Parallax jsem si udělal sám. Jelikož jsem ho používal už dříve tak jsem si ho zkopíroval z jednoho mého staršího projektu a upravil do této stránky*
 * [X] Pro layout stránky je použit [flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) ## Snažil jsem se vyhnout position: absolute;, flex jsem použil kvůli jeho jednoduchosti přizpůsobení stránky na mobilní zařízení
 * [ ] Jsou použity ikonky přes Font Awesome nebo [IcoMoon](https://icomoon.io/) ## Nenašel jsem pro to využití *(zatím)*
-* [ ] vytvořte galerii obrázků tvořenou náhledy vedle sebe (``display: flex`` nebo ``inline-block``)
+* [X] vytvořte galerii obrázků tvořenou náhledy vedle sebe (``display: flex`` nebo ``inline-block``)
 * [X] Použijte pozadí přes lineární nebo radiální gradient ## *pozadí je animováno, linear gradient byl původní nápad (main.css řádek 37), ale nepřišlo mi to vkusné
 * [X] + jakékoli další vylepšení, kterým chcete zanechat přetrvávající dojem 
 #### Nějaké z vylepšení které se vyskytují na stránce
